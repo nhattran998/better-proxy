@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "eqeqeq": "error"
+  },
+  "plugins": ["typescript", "react"],
+  "ignorePatterns": ["node_modules", "dist", ".tanstack", "volumes"]
+}
