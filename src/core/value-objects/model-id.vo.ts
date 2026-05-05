@@ -1,4 +1,4 @@
-import { InvalidModelError } from '@/core/errors';
+import { InvalidModelError } from '#/core/errors';
 
 export class ModelId {
   private constructor(
