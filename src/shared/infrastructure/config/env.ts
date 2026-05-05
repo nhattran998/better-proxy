@@ -5,7 +5,7 @@ const envSchema = z.object({
   PORT: z.coerce.number().default(3000),
   DATABASE_DATA_PATH: z.string().default('./volumes'),
 
-  JWT_SECRET: z.string().min(32),
+  JWT_SECRET: z.string().min(32).default('dev-secret-change-in-production-32chars'),
 
   OIDC_ENABLED: z.coerce.boolean().default(false),
   KEYCLOAK_URL: z.string().url().optional(),
