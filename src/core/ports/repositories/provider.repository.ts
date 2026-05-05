@@ -1,4 +1,4 @@
-import type { Provider, ProviderName } from '@/core/entities';
+import type { Provider, ProviderName } from '#/core/entities';
 
 export interface IProviderRepository {
   findById(id: string): Promise<Provider | null>;

@@ -1,4 +1,4 @@
-import type { User } from '@/core/entities';
+import type { User } from '#/core/entities';
 
 export interface IUserRepository {
   findById(id: string): Promise<User | null>;

@@ -1,4 +1,4 @@
-import type { Connection } from '@/core/entities';
+import type { Connection } from '#/core/entities';
 
 export interface IConnectionRepository {
   findById(id: string): Promise<Connection | null>;

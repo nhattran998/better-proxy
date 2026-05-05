@@ -1,4 +1,4 @@
-import type { Combo } from '@/core/entities';
+import type { Combo } from '#/core/entities';
 
 export interface IComboRepository {
   findById(id: string): Promise<Combo | null>;
