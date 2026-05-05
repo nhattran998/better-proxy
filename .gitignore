@@ -145,9 +145,6 @@ vite.config.ts.timestamp-*
 # TanStack
 .tanstack/
 
-# Bun
-bun.lock
-
 # SQLite database
 volumes/*.db
 volumes/*.db-journal
