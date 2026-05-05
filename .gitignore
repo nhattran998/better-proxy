@@ -141,3 +141,27 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# TanStack
+.tanstack/
+
+# Bun
+bun.lock
+
+# SQLite database
+volumes/*.db
+volumes/*.db-journal
+*.sqlite
+*.sqlite3
+
+# MITM CA certificates
+volumes/ca/
+
+# Playwright
+test-results/
+playwright-report/
+
+# IDE
+.idea/
+*.swp
+*.swo
