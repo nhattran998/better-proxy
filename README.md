@@ -1,6 +1,6 @@
 # Proxy Agent
 
-With your CLI tools(Claude Code, Codex, OpenClaw/Hermess, Cursor), we build an agent proxy layer that help to save ~50% tokens with Headroom/RTK/Caveman/Ponytail in the hood + auto-fallback to open-source AI models(Kimi/Deepseek/Qwen/Minimax/GLM...). This tools leverage your AI subscriptions like Claude X20, Codex X20, Grok CLI, SuperGrok Heavy, OpenRouter, Azure... or your local models like Gemma, DeepSeek, Kimi, Ollama, HuggingFace, etc.
+With your CLI tools(Claude Code, Codex, OpenClaw/Hermess, Cursor), we build an agent proxy layer that helps to save ~50% tokens with Headroom/RTK/Caveman/Ponytail in the hood + auto-fallback to open-source AI models(Kimi/Deepseek/Qwen/Minimax/GLM...). These tools leverage your AI subscriptions like Claude X20, Codex X20, Grok CLI, SuperGrok Heavy, OpenRouter, Azure... or your local models like Gemma, DeepSeek, Kimi, Ollama, HuggingFace, etc.
 
 ## Key Features
 
@@ -10,9 +10,9 @@ We combine Triple-Stack to optimize your token cost
 - Headroom (API Interceptor) - 64K ⭐
 - RTK (Shell CLI Proxy) - 42K ⭐
 - Caveman (Output Formatter) - 75K ⭐
-- Ponytail (AI agent think like the laziest/smartest senior engineer) - 45K ⭐
+- Ponytail (AI agent thinks like the laziest/smartest senior engineer) - 45K ⭐
 
-Combile with Auto-route: Subscription → Opensource Model
+Combine with Auto-route: Subscription → Open-source Model
 
 2. CLI Agnostic
 
@@ -32,12 +32,12 @@ OAuth tokens refresh automatically - No manual re-login needed
 - Real-Time Quota Tracking - Live token count + reset countdown
 - Audit logs for all operations - Troubleshoot issues easily
 - Guardrails + Policies supports
-- Secret management - Keep your credentials safe(support Hashicorp Vault first)
+- Secret management - Keep your credentials safe(support HashiCorp Vault first)
 
 6. Usage Analytics
 
 - Manage tokens, cost, trends over time - Get insights into your AI usage
-- Set budgets on Users and Teams
+- Set budgets for Users and Teams
 
 7. Cloud Sync
 
@@ -48,14 +48,14 @@ Simple stack(SQLite) - Sync config across devices - Same setup everywhere
 - Bundle to a binary -> Run anywhere - Localhost, VPS, Docker, Cloudflare Workers
 - Support Dockerfile, can deploy to any container runtime
 
-9. Support customize hooks
+9. Support custom hooks
 
-We build an internal hook lifecycle allowing you customize the bahavior of proxies, something like a middleware to intercept requests/responses
+We build an internal hook lifecycle allowing you to customize the behavior of proxies, something like a middleware to intercept requests/responses
 
 10. Support knowledge base
 
 Using Vector Stores to store and retrieve knowledge base data from your own/team knowledge base
-No need duplicate knowledge base data across multiple agents/members/tools
+No need to duplicate knowledge base data across multiple agents/members/tools
 
 
 ## API Designs
